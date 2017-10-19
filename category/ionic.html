@@ -2,7 +2,7 @@
 <html lang="zh">
 <head>
         <meta charset="utf-8" />
-        <title>百度SEO最简指南</title>
+        <title>最实践 - ionic</title>
         <link rel="stylesheet" href="/theme/css/main.css" />
 
         <!--[if IE]>
@@ -14,43 +14,46 @@
         <header id="banner" class="body">
                 <h1><a href="/">最实践 </a></h1>
                 <nav><ul>
-                    <li><a href="/category/ionic.html">ionic</a></li>
+                    <li class="active"><a href="/category/ionic.html">ionic</a></li>
                     <li><a href="/category/ming-xiang-de-li-liang.html">冥想的力量</a></li>
-                    <li class="active"><a href="/category/seo.html">SEO</a></li>
+                    <li><a href="/category/seo.html">SEO</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
-<section id="content" class="body">
-  <article>
-    <header>
-      <h1 class="entry-title">
-        <a href="/bai-du-seozui-jian-zhi-nan.html" rel="bookmark"
-           title="Permalink to 百度SEO最简指南">百度SEO最简指南</a></h1>
-    </header>
 
-    <div class="entry-content">
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="/osxxia-ionican-zhuang-he-ce-shi.html">OSX下ionic安装和测试</a></h1>
 <footer class="post-info">
-        <abbr class="published" title="2017-09-14T04:50:00+08:00">
-                Published: 四 14 九月 2017
+        <abbr class="published" title="2017-10-21T07:00:00+08:00">
+                Published: 六 21 十月 2017
         </abbr>
 
         <address class="vcard author">
                 By                         <a class="url fn" href="/author/singmj.html">singmj</a>
         </address>
-<p>In <a href="/category/seo.html">SEO</a>.</p>
+<p>In <a href="/category/ionic.html">ionic</a>.</p>
 
-</footer><!-- /.post-info -->      <h1>百度SEO最简指南</h1>
+</footer><!-- /.post-info --><h2>brew安装权限问题</h2>
 <ul>
-<li>你得有ICP备案号</li>
-<li>有清晰meta数据，包括关键字，站点描述</li>
-<li>明确的H1和URL表达</li>
-<li>有可靠的外部链接，但这是很困难的，媒体不会给你链接，在百度自有产品也不允许链接到你的网站（如百度知道、百度百科、百度经验）</li>
-<li>点击率，你的网站内容，经常被点击</li>
-<li>时效性，你可以看到百度的内容有对时间顺序的考量</li>
-</ul>
-    </div><!-- /.entry-content -->
-
-  </article>
-</section>
+<li>sudo chown -R $(whoami) /usr/local/Cellar
+出现目录不能安装，更新不能安装目录的权限，如上</li>
+<li>npm install -g cordova ionic
+安装</li>
+<li>ionic start myApp tabs
+创建一个tabs应用</li>
+<li>cd myApp</li>
+<li>$ ionic cordova platform add ios</li>
+<li>
+<p>$ ionic build ios</p>
+</li>
+<li>
+<p>xcrun simctl list
+查看合适的模拟器，是否存在</p>
+</li>
+<li>ionic cordova run ios --target="iPhone-7”
+只能针对存在模拟器的运行</li>
+</ul>                </article>
+            </aside><!-- /#featured -->
         <section id="extras" class="body">
                 <div class="blogroll">
                         <h2>links</h2>
